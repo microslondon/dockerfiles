@@ -3,6 +3,7 @@ FROM debian:wheezy
 ENV NODE_VERSION 0.10.26
 
 RUN apt-get update && apt-get -y install \
+  procps \
   build-essential \
   python \
   wget
