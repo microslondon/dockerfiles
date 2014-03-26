@@ -4,6 +4,7 @@ ENV RUBY_VERSION_MAJOR 2.1
 ENV RUBY_VERSION 2.1.1
 
 RUN apt-get update && apt-get -y install \
+  procps \
   build-essential \
   wget \
   libreadline6 \
