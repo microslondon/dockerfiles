@@ -16,7 +16,8 @@ RUN apt-get update && apt-get -y install \
   libsqlite3-dev \
   libxml2-dev \
   libxslt-dev \
-  libpq-dev
+  libpq-dev \
+  libcurl3-dev
 
 RUN cd /usr/local/src && \
   mkdir ruby && \
