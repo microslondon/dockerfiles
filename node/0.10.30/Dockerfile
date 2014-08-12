@@ -1,6 +1,6 @@
 FROM debian:wheezy
 
-ENV NODE_VERSION 0.10.23
+ENV NODE_VERSION 0.10.30
 
 RUN apt-get update && apt-get -y install \
   procps \
